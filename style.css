@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+body {
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url(fondo3.jpg);
+    width: 100%;
+ }
+.hijo {
+    text-align: center;
+    margin-top: 20px;
+    color: yellow;
+}
+#menu a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    padding: 20px 45px;
+    margin: 10px;
+    float: right;
+    margin-top: -50px;
+}
+#menu a:hover {
+    background-color: transparent;
+	transform: rotate(90deg);
+	box-shadow: none;
+    transition: all 0.5s ease;
+}
+#menu ul {
+    list-style: none;
+}
+#sesiones {
+    width: 1000px;
+    margin: auto;
+}
+#sesiones ul {
+    list-style: none;
+}
+#sesiones a {
+    display: block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 28px;
+    z-index: 3;
+    position: relative;
+}
+#sesiones a:hover {
+    background-color: #3e8e41
+}
+#sesiones a:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+footer {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+/*mediaquires para tablet*/
+@media only screen and (max-width:980px) {
+
+}
+
+/*mediaquires para celular*/
+@media only screen and (max-width:480px) {
+    .hijo {
+        text-align: center;
+        width: 1000px;
+    }
+
+}
